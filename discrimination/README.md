@@ -2,7 +2,15 @@
 
 This folder contains code for the discrimination experiments.
 
-`run_discrimination.py` can be used to train or evaluate a model for discrimination
+`run_discrimination.py` can be used to train or evaluate a model for discrimination.
+
+# How to use `run_discrimination.py`:
+
+python3 run_discrimination.py --input_data=*Directory leading to .json* --output_dir=*Output Directory* --do_train=*Set to False automatically, need to explicitly allow training* --config_file=*Directory containing config files, should be in lm directory*
+
+# Input Data:
+
+Grover uses a specific formatting for their input files in regards to the discriminator, you can use the tool provided under the discrimination directory to generate Grover files form Excel spreadsheets.
 
 # Discrimination checkpoints
 Here are links to the discrimination checkpoints. You'll need to use google cloud storage to download these.
