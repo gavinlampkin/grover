@@ -8,7 +8,7 @@ This folder contains code for the discrimination experiments.
 ```
 python3 run_discrimination.py --input_data=*Directory leading to .json* --output_dir=*Output Directory* --do_train=*Set to False automatically, need to explicitly allow training* --config_file=*Directory containing config files, should be in lm directory*
 ```
-# Input Data:
+# Input Data
 
 Grover uses a specific formatting for their input files in regards to the discriminator, you can use the tool provided under the discrimination directory to generate Grover files form Excel spreadsheets.
 
