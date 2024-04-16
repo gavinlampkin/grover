@@ -4,7 +4,7 @@ This folder contains code for the discrimination experiments.
 
 `run_discrimination.py` can be used to train or evaluate a model for discrimination.
 
-# How to use `run_discrimination.py`:
+# How to use `run_discrimination.py`
 ```
 python3 run_discrimination.py --input_data=*Directory leading to .json* --output_dir=*Output Directory* --do_train=*Set to False automatically, need to explicitly allow training* --config_file=*Directory containing config files, should be in lm directory*
 ```
