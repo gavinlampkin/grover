@@ -304,6 +304,12 @@ def main(_):
                                                          is_training=True, drop_remainder=True,
                                                          )
         estimator.train(input_fn=train_input_fn, steps=num_train_steps)
+        
+    #Added my Group 14 to explicitly express the resulting tensor's metrics.
+    result = estimator.evaluate(input_fn=train_input_fn, steps=num_train_steps)
+
+    for key, value in result.items():
+        print(key, ":", value)
 
     splits_to_predict = [x for x in ['val', 'test'] if getattr(FLAGS, f'predict_{x}')]
     for split in splits_to_predict:
