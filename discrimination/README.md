@@ -10,7 +10,7 @@ python3 run_discrimination.py --input_data=*Directory leading to .json* --output
 ```
 # Input Data
 
-Grover uses a specific formatting for their input files in regards to the discriminator, you can use the tool provided under the discrimination directory to generate Grover files form Excel spreadsheets.
+Grover uses a specific formatting for their input files in regards to the discriminator, you can use the tool provided under the discrimination directory to generate Grover-specific JSON files form Excel spreadsheets.
 Using the tool is very easy! Just format your Excel file in the following way:
 
 Columns: [article, domain, title, date, authors, ind30k, url, label(human/machine), orig_split, split, random_score]
