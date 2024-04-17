@@ -1,20 +1,41 @@
-# discrimination
+# CS 4371 Group Project
+> Our Team is looking to see... 
+
+## Table of Contents
+* [Team](#team)
+* [Discrimination](#discrimination)
+* [Dependencies](#dependencies)
+* [How to Use](#how-to-use-run_discriminationpy)
+* [Input Data](#input-data)
+* [Discrimination Checkpoints](#discrimination-checkpoints)
+* [Scholarly Papers](#scholarly-papers)
+
+## Team
+
+We are a team of Texas State University students researching neural fake news...
+
+* Christopher B Pearson
+* Gavin Wright Lampkin
+* John Yamamoto
+* Quetzin Luis Nahm Pimentel
+* Luis Herrera
+## discrimination
 
 This folder contains code for the discrimination experiments.
 
 `run_discrimination.py` can be used to train or evaluate a model for discrimination.
 
-# Dependencies
+## Dependencies
 
 Anaconda is needed and can be downloaded at: `https://docs.nvidia.com/cuda/cuda-installation-guide-linux/`
 
 Set up your environment. Here's the easy way, `conda create -y -n grover python=3.6 && source activate grover && pip install -r requirements-gpu.txt`
 
-# How to use `run_discrimination.py`
+## How to use `run_discrimination.py`
 ```
 python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/ --do_train=True/False --config_file=/home/grover/lm/configs/...
 ```
-# Input Data
+## Input Data
 
 Download a Grover dataset on your own from the root directory by running `python3 download_model.py base/medium/mega` or use the tableParser.
 
@@ -27,7 +48,7 @@ Fill out your Excel spreadsheet with the specified data and save to the same dir
 ```
 $ ./tableParse.py -i input.xlsx out.json
 ```
-# Discrimination checkpoints
+## Discrimination checkpoints
 Here are links to the discrimination checkpoints. You'll need to use google cloud storage to download these.
 
 **NOTE**: These checkpoints were trained on 5000 examples from a specific Grover generator, with a specific nucleus sampling top-p setting. As a result, these aren't necessarily the best discrimination checkpoints, nor are they the most general. The reason we used this experimental setup is outlined [in the paper](https://arxiv.org/abs/1905.12616) -- we assumed limited access to the generator. We did [later experiments](https://medium.com/ai2-blog/counteracting-neural-disinformation-with-grover-6cf6690d463b) and found that if you assume, say, 100k examples from a generator, you'll do much better (up to around 97% accuracy).
@@ -47,3 +68,4 @@ gs://grover-models/discrimination/generator=mega~discriminator=grover~discsize=m
 gs://grover-models/discrimination/generator=mega~discriminator=grover~discsize=mega~dataset=p=0.94/model.ckpt-1562.index
 gs://grover-models/discrimination/generator=mega~discriminator=grover~discsize=mega~dataset=p=0.94/model.ckpt-1562.meta
 ```
+## Scholarly Papers
