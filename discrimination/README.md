@@ -48,7 +48,7 @@ Column Headers: [article, domain, title, date, authors, ind30k, url, label(human
 
 Fill out your Excel spreadsheet with the specified data and save to the same directory as the tableParse file and run the following command:
 ```
-$ ./tableParse.py -i input.xlsx out.json
+$ ./tableParse.py -i Grover_Excel_Data.xlsx output
 ```
 ## Discrimination checkpoints
 Here are links to the discrimination checkpoints. You'll need to use google cloud storage to download these.
