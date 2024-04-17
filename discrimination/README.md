@@ -6,7 +6,7 @@ This folder contains code for the discrimination experiments.
 
 # Dependencies
 
-Anaconda is needed and can be downloaded at: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/
+Anaconda is needed and can be downloaded at: `https://docs.nvidia.com/cuda/cuda-installation-guide-linux/`
 Make sure to pip install the requirements-gpu.txt
 
 # How to use `run_discrimination.py`
