@@ -35,7 +35,7 @@ Set up your environment. Here's the easy way, `conda create -y -n grover python=
 ```
 python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/ --do_train=True/False --config_file=/home/grover/lm/configs/...
 ```
-## Input Data
+## Input dataset
 
 Download a Grover dataset on your own from the root directory by running `python3 download_model.py base/medium/mega` or use the tableParser.
 
