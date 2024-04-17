@@ -8,6 +8,8 @@ This folder contains code for the discrimination experiments.
 
 Anaconda is needed and can be downloaded at: `https://docs.nvidia.com/cuda/cuda-installation-guide-linux/`
 
+Set up your environment. Here's the easy way, `conda create -y -n grover python=3.6 && source activate grover && pip install -r requirements-gpu.txt`
+
 Make sure to pip install the `requirements-gpu.txt`
 
 # How to use `run_discrimination.py`
