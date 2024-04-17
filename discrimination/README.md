@@ -1,5 +1,6 @@
 # CS 4371 Group Project
-> Our Team is looking to see... 
+> > Our Team was look initally looking to introduce a new dataset to feed the dicriminator, but we shifted gears to make the discriminator more accessible with the introduction of tableParse.py. 
+
 
 ## Table of Contents
 * [Team](#team)
@@ -12,13 +13,14 @@
 
 ## Team
 
-We are a team of Texas State University students researching neural fake news...
+We are a team of Texas State University students researching neural fake news for our CS 4371 group project. Our Team consists of:
 
 * Christopher B Pearson
 * Gavin Wright Lampkin
 * John Yamamoto
 * Quetzin Luis Nahm Pimentel
 * Luis Herrera
+
 ## discrimination
 
 This folder contains code for the discrimination experiments.
