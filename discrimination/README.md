@@ -7,7 +7,10 @@ This folder contains code for the discrimination experiments.
 # Dependencies
 
 Anaconda is needed and can be downloaded at: `https://docs.nvidia.com/cuda/cuda-installation-guide-linux/`
-Make sure to pip install the requirements-gpu.txt
+
+Make sure to pip install the `requirements-gpu.txt`
+
+Download a Grover dataset on your own or use our Excel parser that is detailed in `Input Data` below. 
 
 # How to use `run_discrimination.py`
 ```
