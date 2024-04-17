@@ -4,6 +4,11 @@ This folder contains code for the discrimination experiments.
 
 `run_discrimination.py` can be used to train or evaluate a model for discrimination.
 
+# Dependencies
+
+Anaconda is needed and can be downloaded at: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/
+Make sure to pip install the requirements-gpu.txt
+
 # How to use `run_discrimination.py`
 ```
 python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/ --do_train=True/False --config_file=/home/grover/lm/configs/...
