@@ -6,7 +6,7 @@ This folder contains code for the discrimination experiments.
 
 # How to use `run_discrimination.py`
 ```
-python3 run_discrimination.py --input_data=*Directory leading to .json* --output_dir=*Output Directory* --do_train=*Set to False automatically, need to explicitly allow training* --config_file=*Directory containing config files, should be in lm directory*
+python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/ --do_train=True/False --config_file=/home/grover/lm/configs/...
 ```
 # Input Data
 
