@@ -1,3 +1,6 @@
+
+# GROUP 14'S README IS LOCATED WITHIN THE /DISCRIMINATION FOLDER
+
 # Grover
 ##### UPDATE, Sept 17 2019. We got into NeurIPS (camera ready coming soon!) and we've made Grover-Mega publicly available without you needing to fill out the form. You can download it using [download_model.py](download_model.py).
 
