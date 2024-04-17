@@ -10,7 +10,7 @@ Anaconda is needed and can be downloaded at: `https://docs.nvidia.com/cuda/cuda-
 
 Make sure to pip install the `requirements-gpu.txt`
 
-Download a Grover dataset on your own or use our Excel parser that is detailed in `Input Data` below. 
+Download a Grover dataset on your own `python download_model.py base/medium/mega` or use our Excel parser that is detailed in `Input Data` below. 
 
 # How to use `run_discrimination.py`
 ```
