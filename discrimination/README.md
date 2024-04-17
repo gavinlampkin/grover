@@ -10,8 +10,6 @@ Anaconda is needed and can be downloaded at: `https://docs.nvidia.com/cuda/cuda-
 
 Set up your environment. Here's the easy way, `conda create -y -n grover python=3.6 && source activate grover && pip install -r requirements-gpu.txt`
 
-Make sure to pip install the `requirements-gpu.txt`
-
 # How to use `run_discrimination.py`
 ```
 python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/ --do_train=True/False --config_file=/home/grover/lm/configs/...
