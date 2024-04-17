@@ -13,7 +13,7 @@ python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/
 Grover uses a specific formatting for their input files in regards to the discriminator, you can use the tool provided under the discrimination directory to generate Grover-specific JSON files form Excel spreadsheets.
 Using the tool is very easy! Just format your Excel file in the following way:
 
-Columns: [article, domain, title, date, authors, ind30k, url, label(human/machine), orig_split, split, random_score]
+Column Headers: [article, domain, title, date, authors, ind30k, url, label(human/machine), orig_split, split, random_score]
 
 Fill out your Excel spreadsheet with the specified data and save to the same directory as the tableParse file and run the following command:
 ```
