@@ -16,7 +16,7 @@ python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/
 ```
 # Input Data
 
-Download a Grover dataset on your own from the root directory by running `python3 download_model.py base/medium/mega` or use our Excel parser that is detailed in `Input Data` below. 
+Download a Grover dataset on your own from the root directory by running `python3 download_model.py base/medium/mega` or use the tableParser.
 
 Grover uses a specific formatting for their input files in regards to the discriminator, you can use the tool provided under the discrimination directory to generate Grover-specific JSON files form Excel spreadsheets.
 Using the tool is very easy! Just format your Excel file in the following way:
