@@ -50,6 +50,12 @@ Fill out your Excel spreadsheet with the specified data and save to the same dir
 ```
 $ ./tableParse.py -i Grover_Excel_Data.xlsx output
 ```
+
+## Output
+
+Grover outputs a Loss function that is improved apon with multiple trials, you can find more about these results here: https://machinelearningmastery.com/loss-functions-in-tensorflow/
+
+
 ## Discrimination checkpoints
 Here are links to the discrimination checkpoints. You'll need to use google cloud storage to download these.
 
