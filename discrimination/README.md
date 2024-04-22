@@ -1,5 +1,5 @@
 # CS 4371 Group Project
-> > Our Team was look initally looking to introduce a new dataset to feed the dicriminator, but we shifted gears to make the discriminator more accessible with the introduction of tableParse.py. 
+> Our Team was look initally looking to introduce a new dataset to feed the dicriminator, but we shifted gears to make the discriminator more accessible with the introduction of tableParse.py. 
 
 
 ## Table of Contents
