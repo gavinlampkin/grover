@@ -41,12 +41,13 @@ Grover uses a specific formatting for their input files in regards to the discri
 Using the tool is very easy! Just format your Excel file in the following way:
 
 Column Headers: [article, domain, title, date, authors, ind30k, url, label(human/machine), orig_split, split, random_score]
-![Column Headers](file:///C:/Users/User1/OneDrive/Documents/img.JPG)
+
 
 Fill out your Excel spreadsheet with the specified data and save to the same directory as the tableParse file and run the following command:
 ```
 $ ./tableParse.py -i Grover_Excel_Data.xls output_file_name.json
 ```
+
 
 ## How to use `run_discrimination.py`
 ```
