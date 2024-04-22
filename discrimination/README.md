@@ -45,7 +45,7 @@ Column Headers: [article, domain, title, date, authors, ind30k, url, label(human
 
 Fill out your Excel spreadsheet with the specified data and save to the same directory as the tableParse file and run the following command:
 ```
-$ ./tableParse.py -i Grover_Excel_Data.xls output_file_name.json
+$ ./tableParse.py -i groverData.xls output_file_name.json
 ```
 
 
