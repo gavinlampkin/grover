@@ -33,10 +33,6 @@ Anaconda is needed and can be downloaded at: `https://docs.nvidia.com/cuda/cuda-
 
 Set up your environment. Here's the easy way, `conda create -y -n grover python=3.6 && source activate grover && pip install -r requirements-gpu.txt`
 
-## How to use `run_discrimination.py`
-```
-python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/ --do_train=True/False --config_file=/home/grover/lm/configs/...
-```
 ## Input dataset
 
 Download a Grover dataset on your own from the root directory by running `python3 download_model.py base/medium/mega` or use the tableParser.
@@ -45,10 +41,16 @@ Grover uses a specific formatting for their input files in regards to the discri
 Using the tool is very easy! Just format your Excel file in the following way:
 
 Column Headers: [article, domain, title, date, authors, ind30k, url, label(human/machine), orig_split, split, random_score]
+![Column Headers](file:///C:/Users/User1/OneDrive/Documents/img.JPG)
 
 Fill out your Excel spreadsheet with the specified data and save to the same directory as the tableParse file and run the following command:
 ```
 $ ./tableParse.py -i Grover_Excel_Data.xls output_file_name.json
+```
+
+## How to use `run_discrimination.py`
+```
+python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/ --do_train=True/False --config_file=/home/grover/lm/configs/...
 ```
 
 ## Output
