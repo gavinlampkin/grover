@@ -7,7 +7,8 @@
 * [Discrimination](#discrimination)
 * [Dependencies](#dependencies)
 * [How to Use](#how-to-use-run_discriminationpy)
-* [Input Data](#input-data)
+* [DataSet](#dataset)
+* [Input Data](#input-dataset)
 * [Discrimination Checkpoints](#discrimination-checkpoints)
 * [Scholarly Papers](#scholarly-papers)
 
@@ -32,6 +33,16 @@ This folder contains code for the discrimination experiments.
 Anaconda is needed and can be downloaded at: `https://docs.nvidia.com/cuda/cuda-installation-guide-linux/`
 
 Set up your environment. Here's the easy way, `conda create -y -n grover python=3.6 && source activate grover && pip install -r requirements-gpu.txt`
+
+## Dataset
+
+Source: [Link to Fake News Dataset](https://www.kaggle.com/datasets/mohamedgreshamahdi/fakenewsnet?select=BuzzFeed_fake_news_content.csv)  
+
+Sets Used:
+- BuzzFeed_fake_news_content.csv
+- BuzzFeed_real_news_content.csv
+- PolitiFact_fake_news_content.csv
+- PolitiFact_real_news_content.csv
 
 ## Input dataset
 
