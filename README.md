@@ -70,6 +70,5 @@ Our core position is that [it is important to release possibly-dangerous models 
     title={Defending Against Neural Fake News},
     author={Zellers, Rowan and Holtzman, Ari and Rashkin, Hannah and Bisk, Yonatan and Farhadi, Ali and Roesner, Franziska and Choi, Yejin},
     booktitle={Advances in Neural Information Processing Systems 32},
-    year={2019}
+    year={2019} 
 }
-```
