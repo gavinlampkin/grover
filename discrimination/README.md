@@ -68,7 +68,7 @@ python3 run_discrimination.py --input_data= input.json --output_dir= /outputdir/
 
 ## Output
 
-Grover outputs a Loss function that is improved apon with multiple trials, you can find more about these results here: https://machinelearningmastery.com/loss-functions-in-tensorflow/
+Grover outputs a Loss function that is improved apon with multiple trials, more training steps, or longer evaluation times, you can find more about these results here: https://machinelearningmastery.com/loss-functions-in-tensorflow/
 
 
 ## Discrimination checkpoints
